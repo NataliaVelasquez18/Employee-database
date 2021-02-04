@@ -210,8 +210,12 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 ```
+These are the roles to be filled:
 
-Retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/Retiring_titles.png" width="250" height="250" />
+
+
+Now, let's retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
 
 
 ```
@@ -270,29 +274,4 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 Contact:
 Email:
 Twitter
-
----
-## ANALYSIS AND RESULTS
-**1. Roles to be filled:**
-
-<img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width="250" height="250" />
-
-**2. Mentorship program:**
-
-<img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width="250" height="250" />
-
-
-
-<table>
-  <tr>
-    <td>Mentors Needed</td>
-     <td>Mentors Available</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width=350 height=350></td>
-    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width=350 height=350></td>
-  </tr>
- </table>
- 
-
 
