@@ -66,11 +66,10 @@ In the ERD_and_queries folder you can find the Entity_Relationship_Diagram.sql f
 If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website, click the "Try the App". You don't need to create an account to make your first diagram.  The next screen is the text editor which will have a sample ERD already in place.  Instead of altering the sample, we'll go ahead and delete the text in the text editor to clear the canvas for our own use.
 
 
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/empty_text_editor.png" width="250" height="250" />
 
-%%%% empty tex editor
 
-
-Copy the content of the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
+Copy the content from the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
 
 flow chart image
 
