@@ -117,7 +117,8 @@ Name the database PH-EmployeeDB and click "Save".  A red X beside the new databa
 Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
 
 
-Query tool image
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="250" height="250" />
+
 
 
 To create our 6 new tables, open the schema.sql file using Visual Studio Code, copy all the information from the file and paste it on the Query Tool in pgAdmin. In the next block of code you can see an example of the first part of it.
