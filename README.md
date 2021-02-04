@@ -29,14 +29,14 @@ Before the installations there are some important concepts you need to know:
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
-$$$uncheck builder
-
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/uncheck_stack_builder.png" width="250" height="250" />
 
 
 To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
 
-%%%%%confirm installation
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="250" height="250" />
+
 
 
 
@@ -63,24 +63,16 @@ In the database_creation_csv_files folder there are 6 csv files with employee da
 
 In the ERD_and_queries folder you can find the Entity_Relationship_Diagram.sql file. You will use Visual Studio Code to open the file and see the table relationships and data types of each column in our 6 tables.  
 
-If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website, click the "Try the App" button shown in the following image to get started. You don't need to create an account to make your first diagram.
-
-try app image
+If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website, click the "Try the App". You don't need to create an account to make your first diagram.  The next screen is the text editor which will have a sample ERD already in place.  Instead of altering the sample, we'll go ahead and delete the text in the text editor to clear the canvas for our own use.
 
 
-The next screen is the text editor. Because it's your first visit, the text editor will have a sample ERD already in place, plus an option to tour the app and accept the website's cookies. Click the "Got it!" button to dismiss the message about cookies and go ahead and skip the tour.
-
-skip tour image
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/empty_text_editor.png" width="250" height="250" />
 
 
-Instead of altering the sample, we'll go ahead and delete the text in the text editor to clear the canvas for our own use.
+Copy the content from the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
 
-%%%% empty tex editor
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/ERD.png" width="250" height="250" />
 
-
-Copy the content of the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
-
-flow chart image
 
 ---
 
@@ -93,12 +85,11 @@ flow chart image
 **First**, launch pgAdminReturn to the pgAdmin window we opened earlier.  If you have closed your pgAdmin window, or shut down the program completely, you can open a new one by locating the pgAdmin icon and clicking it to start the software again.
 
 
-**Second**, connect to the Server
-
-If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
+**Second**, connect to the Server.  If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
 
 
-image conect toserver
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="250" height="250" />
+
 
 
 This is the default database that is created when the pgAdmin and Postgres package was installed. Instead of using this database, you will create another one for this project.
@@ -110,19 +101,13 @@ This is the default database that is created when the pgAdmin and Postgres packa
 Right-click on "PostgreSQL your version." and create the database.
 
 
-create database image
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="250" height="250" />
 
 
-Name the database PH-EmployeeDB and click "Save".
+Name the database PH-EmployeeDB and click "Save".  A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
 
 
-save database image
-
-
-A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
-
-
-connect to DB image
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_DB.png" width="250" height="250" />
 
 
 
@@ -132,7 +117,8 @@ connect to DB image
 Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
 
 
-Query tool image
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="250" height="250" />
+
 
 
 To create our 6 new tables, open the schema.sql file using Visual Studio Code, copy all the information from the file and paste it on the Query Tool in pgAdmin. In the next block of code you can see an example of the first part of it.
@@ -154,8 +140,8 @@ Then execute code.  In the toolbar of the pgAdmin webpage, hover over the differ
 
 In the pgAdmin window, select the dropdown menu for our PH-EmployeeDB database. To import data into the tables, first confirm all of our tables are listed.  If you are unable to see all the tables, right click on "Tables" and then click "Refresh".
 
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/check_tables.png" width="250" height="250" />
 
-check tables image
 
 To import a CSV into Postgres with pgAdmin, follow these steps. 
 
@@ -225,7 +211,10 @@ GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 ```
 
-Retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/Retiring_titles.png" width="250" height="250" />
+
+
+Now, let's retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
 
 
 ```
@@ -275,7 +264,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * Hat tip to anyone whose code was used
 * Inspiration
-* etc
 
 ---
 
@@ -284,29 +272,4 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 Contact:
 Email:
 Twitter
-
----
-## ANALYSIS AND RESULTS
-**1. Roles to be filled:**
-
-<img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width="250" height="250" />
-
-**2. Mentorship program:**
-
-<img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width="250" height="250" />
-
-
-
-<table>
-  <tr>
-    <td>Mentors Needed</td>
-     <td>Mentors Available</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width=350 height=350></td>
-    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width=350 height=350></td>
-  </tr>
- </table>
- 
-
 
