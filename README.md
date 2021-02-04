@@ -262,14 +262,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
+* Berkeley University Department of Data Science
 
 ---
 
 ## Author
 
-Contact:
-Email:
-Twitter
+Contact: Natalia Velasquez
+Email: nativelasquez@gmail.com
+Twitter: @NatiVelasquez18
 
