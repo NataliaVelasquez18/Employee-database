@@ -71,7 +71,7 @@ If you are a more of a visual person and would like to visualize the table relat
 
 Copy the content from the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/flow_chart.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/ERD.png" width="250" height="250" />
 
 
 ---
