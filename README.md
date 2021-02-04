@@ -31,7 +31,6 @@ An InstallBuilder window will show the components selected for installation. Be 
 
 <img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/uncheck_stack_builder.png" width="250" height="250" />
 
-<img src=""width="250" height="250" />
 
 To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
