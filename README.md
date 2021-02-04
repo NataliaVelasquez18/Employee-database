@@ -210,7 +210,6 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 ```
-These are the roles to be filled:
 
 <img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/Retiring_titles.png" width="250" height="250" />
 
