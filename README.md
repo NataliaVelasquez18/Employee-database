@@ -29,9 +29,9 @@ Before the installations there are some important concepts you need to know:
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
-$$$uncheck builder
+<img src=""width="250" height="250" />
 
-
+<img src=""width="250" height="250" />
 
 To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
