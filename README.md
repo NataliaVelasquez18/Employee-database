@@ -85,12 +85,11 @@ Copy the content from the Entity_Relationship_Diagram.sql file and paste it on t
 **First**, launch pgAdminReturn to the pgAdmin window we opened earlier.  If you have closed your pgAdmin window, or shut down the program completely, you can open a new one by locating the pgAdmin icon and clicking it to start the software again.
 
 
-**Second**, connect to the Server
-
-If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
+**Second**, connect to the Server.  If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
 
 
-image conect toserver
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="250" height="250" />
+
 
 
 This is the default database that is created when the pgAdmin and Postgres package was installed. Instead of using this database, you will create another one for this project.
