@@ -159,7 +159,10 @@ To import a CSV into Postgres with pgAdmin, follow these steps.
 
 ---
 
-## Query Business Questions
+## Business Analysis
+
+
+### Query Business Questions
 
 
 Retrieve the employees who are retiring with their name, last name, title, dates of employment and order them by employee number.
@@ -252,8 +255,14 @@ GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 ```
 
----
+### Recommendations
 
+
+
+xxxxxx
+
+
+---
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
