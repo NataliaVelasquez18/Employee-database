@@ -265,27 +265,22 @@ ORDER BY COUNT(emp_no) DESC;
 
 ### Recommendations
 
+With 90,398 employees retiring in the near future, the company needs to put an agressive strategy to attrack and retain talent its talent.  Being an attractive employer can be achieved in several different ways.  For example, high compensation, benefits, opportunities for career development, specialized trainings, etc.
 
+Senior Engineers are the positions that will be needed the most.  A study of the job market will help assess the availability and feasibility of getting the needed talent under the current budget.
 
-xxxxxx
-
-
----
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ---
 
 ## Acknowledgments
 
-* Berkeley University Department of Data Science
+* Berkeley University Department of Data Science provided the training materials to develop this project.
 
 ---
 
 ## Author
 
-Contact: Natalia Velasquez
-Email: nativelasquez@gmail.com
-Twitter: @NatiVelasquez18
+* Contact: Natalia Velasquez
+* Email: nativelasquez@gmail.com
+* Twitter: @NatiVelasquez18
 
