@@ -64,7 +64,7 @@ Download the folders and files contained in this repository on your local machin
 
 ### Identifying Data Relationships
 
-In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez18/Employee-database/tree/main/database_creation_csv_files) there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments. These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
+In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez18/Employee-database/tree/main/database_creation_csv_files) there are 6 csv files with employee data such as [salaries](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/salaries.csv), [employees](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/employees.csv), [managers by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_manager.csv), [employees by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_emp.csv), [titles](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/titles.csv), and [departments](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/departments.csv). These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
 
 
 ### Entity Relationship Diagrams (ERD)
@@ -77,7 +77,7 @@ If you are a more of a visual person and would like to visualize the table relat
 <img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/empty_text_editor.png" width="250" height="250" />
 
 
-Copy the content from the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
+Copy the content from the [Entity_Relationship_Diagram.sql](https://github.com/NataliaVelasquez18/Employee-database/blob/main/ERD_and_queries/Entity_Relationship_Diagram.sql) file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
 
 <img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/ERD.png" width="250" height="250" />
 
@@ -129,7 +129,7 @@ Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  
 
 
 
-To create our 6 new tables, open the schema.sql file using Visual Studio Code, copy all the information from the file and paste it on the Query Tool in pgAdmin. In the next block of code you can see an example of the first part of it.
+To create our 6 new tables, open the [schema.sql](https://github.com/NataliaVelasquez18/Employee-database/blob/main/ERD_and_queries/schema.sql) file using Visual Studio Code, copy all the information from the file and paste it on the Query Tool in pgAdmin. In the next block of code you can see an example of the first part of it.
 
 ```
 -- Creating tables for PH-EmployeeDB
