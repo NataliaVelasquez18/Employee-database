@@ -64,7 +64,7 @@ Download the folders and files contained in this repository on your local machin
 
 ### Identifying Data Relationships
 
-In the database_creation_csv_files folder there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments. These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
+In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez18/Employee-database/tree/main/database_creation_csv_files) there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments. These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
 
 
 ### Entity Relationship Diagrams (ERD)
