@@ -8,7 +8,7 @@ A database built in SQL using PostgreSQL.
 ## Business Problem
 
 
-Managing company data in Excel or VBA can become conversome with large amounts of information.  When organizations need to scale, the need to store and manage their data in a way that is efficient.  The purpose of this project is to show how to build a database using SQL and how efficient is to retrive any information needed for analysis after the database is up and runing.
+Managing company data in Excel or VBA can become conversome with large amounts of information.  When organizations need to scale, the need to store and manage their data in a way that is efficient.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.
 
 
 ---
