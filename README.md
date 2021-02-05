@@ -69,7 +69,7 @@ In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez1
 
 ### Entity Relationship Diagrams (ERD)
 
-In the ERD_and_queries folder you can find the [Entity_Relationship_Diagram.sql](https://github.com/NataliaVelasquez18/Employee-database/blob/main/ERD_and_queries/Entity_Relationship_Diagram.sql) file. You will use Visual Studio Code to open the file and see the table relationships and data types of each column in our 6 tables.  
+In the [ERD_and_queries](https://github.com/NataliaVelasquez18/Employee-database/tree/main/ERD_and_queries) folder you can find the [Entity_Relationship_Diagram.sql](https://github.com/NataliaVelasquez18/Employee-database/blob/main/ERD_and_queries/Entity_Relationship_Diagram.sql) file. You will use Visual Studio Code to open the file and see the table relationships and data types of each column in our 6 tables.  
 
 If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website, click the "Try the App". You don't need to create an account to make your first diagram.  The next screen is the text editor which will have a sample ERD already in place.  Instead of altering the sample, we'll go ahead and delete the text in the text editor to clear the canvas for our own use.
 
