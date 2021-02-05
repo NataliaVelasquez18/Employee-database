@@ -5,6 +5,11 @@ A database built in SQL using PostgreSQL.
 
 ---
 
+## Business Problem
+
+
+Managing company data in Excel or VBA can become conversome with large amounts of information.  By laveraging PostgreSQL companies can scale and organize their data for fast 
+
 
 ## Getting Started
 
