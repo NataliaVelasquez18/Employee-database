@@ -37,13 +37,13 @@ Before the installations there are some important concepts you need to know:
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/uncheck_stack_builder.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/uncheck_stack_builder.png" width="350" height="250" />
 
 
 To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="350" height="250" />
 
 
 
@@ -96,7 +96,7 @@ Copy the content from the [Entity_Relationship_Diagram.sql](https://github.com/N
 **Second**, connect to the Server.  If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="250" height="350" />
 
 
 
@@ -109,13 +109,13 @@ This is the default database that is created when the pgAdmin and Postgres packa
 Right-click on "PostgreSQL your version." and create the database.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="350" height="250" />
 
 
 Name the database PH-EmployeeDB and click "Save".  A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_DB.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_DB.png" width="350" height="250" />
 
 
 
@@ -125,7 +125,7 @@ Name the database PH-EmployeeDB and click "Save".  A red X beside the new databa
 Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="350" height="250" />
 
 
 
@@ -148,7 +148,7 @@ Then execute code.  In the toolbar of the pgAdmin webpage, hover over the differ
 
 In the pgAdmin window, select the dropdown menu for our PH-EmployeeDB database. To import data into the tables, first confirm all of our tables are listed.  If you are unable to see all the tables, right click on "Tables" and then click "Refresh".
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/check_tables.png" width="250" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/check_tables.png" width="450" height="350" />
 
 
 To import a CSV into Postgres with pgAdmin, follow these steps. 
