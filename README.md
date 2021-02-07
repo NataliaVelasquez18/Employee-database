@@ -109,7 +109,7 @@ This is the default database that is created when the pgAdmin and Postgres packa
 Right-click on "PostgreSQL your version." and create the database.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="350" height="150" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="390" height="150" />
 
 
 Name the database PH-EmployeeDB and click "Save".  A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
