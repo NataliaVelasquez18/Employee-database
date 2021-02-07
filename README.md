@@ -96,7 +96,7 @@ Copy the content from the [Entity_Relationship_Diagram.sql](https://github.com/N
 **Second**, connect to the Server.  If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="550" height="350" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/connect_to_server.png" width="350" height="150" />
 
 
 
@@ -109,7 +109,7 @@ This is the default database that is created when the pgAdmin and Postgres packa
 Right-click on "PostgreSQL your version." and create the database.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="550" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/create_database.png" width="350" height="150" />
 
 
 Name the database PH-EmployeeDB and click "Save".  A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
