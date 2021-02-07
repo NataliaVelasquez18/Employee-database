@@ -148,7 +148,7 @@ Then execute code.  In the toolbar of the pgAdmin webpage, hover over the differ
 
 In the pgAdmin window, select the dropdown menu for our PH-EmployeeDB database. To import data into the tables, first confirm all of our tables are listed.  If you are unable to see all the tables, right click on "Tables" and then click "Refresh".
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/check_tables.png" width="450" height="350" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/check_tables.png" width="550" height="350" />
 
 
 To import a CSV into Postgres with pgAdmin, follow these steps. 
