@@ -125,7 +125,7 @@ Name the database PH-EmployeeDB and click "Save".  A red X beside the new databa
 Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="350" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/query_tool.png" width="200" height="100" />
 
 
 
