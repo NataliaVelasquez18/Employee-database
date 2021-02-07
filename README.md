@@ -43,7 +43,7 @@ An InstallBuilder window will show the components selected for installation. Be 
 To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
 
-<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="350" height="250" />
+<img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/confirm_pgadmin_installation.png" width="390" height="250" />
 
 
 
