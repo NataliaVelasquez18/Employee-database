@@ -8,7 +8,7 @@ Building a database in SQL using PostgreSQL, retrieving data from business quest
 ## Business Problem
 
 
-Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.  Also, we will be uncovering important insights with the data retrieved that will help drive strategy and inform decision making.
+Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.  Also, we will be uncovering important insights that will help drive strategy and inform decision making.
 
 
 ---
