@@ -1,6 +1,6 @@
 # Employee Database with SQL
 
-A database built in SQL using PostgreSQL. 
+Building a database in SQL using PostgreSQL, retrieve some data, and provide analysis and recommendations. 
 
 
 ---
