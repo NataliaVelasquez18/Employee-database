@@ -274,7 +274,7 @@ Senior Engineers are the positions that will be needed the most.  A study of the
 
 ## Acknowledgments
 
-* Berkeley University Department of Data Science provided the training materials to develop this project.
+* Berkeley University Department of Data Science provided the training to develop this project.
 
 ---
 
