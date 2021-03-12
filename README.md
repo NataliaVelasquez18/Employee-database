@@ -1,6 +1,6 @@
 # Employee Database with SQL
 
-Building a database in SQL using PostgreSQL, retrieving data from business questions, and provide recommendations. 
+Building a database in SQL using PostgreSQL, retrieving data according to business questions, and providing recommendations. 
 
 
 ---
