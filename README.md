@@ -13,6 +13,11 @@ Managing company data in Excel or VBA can become conversome as organizations gro
 
 ---
 
+## Executive Summary
+
+* 90,398 employees will be retiring in the near future. The most representative positions are: 32% are Senior Engineers, 31% are Senior StaffEngineers, and 16% are Engineers.
+
+---
 
 ## Getting Started
 
