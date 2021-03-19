@@ -1,6 +1,6 @@
 # Employee Database with SQL
 
-Building a PostgreSQL database and extracting data for analysis.
+Building a PostgreSQL database from scratch and extracting data for analysis. Data Modeling, Data Engineering, 
 
 
 ---
