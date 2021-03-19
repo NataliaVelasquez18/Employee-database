@@ -1,6 +1,6 @@
 # Employee Database with SQL
 
-Building a database in SQL using PostgreSQL, retrieving data according to business questions, and providing recommendations. 
+Building a PostgreSQL database and extracting data for analysis.
 
 
 ---
@@ -8,7 +8,8 @@ Building a database in SQL using PostgreSQL, retrieving data according to busine
 ## Business Problem
 
 
-Managing company data in Excel or VBA can become conversome as organizations grow and more business users need answers from data.  As companies scale they need to put a different system in place to store and manage large amounts of data.  The purpose of this project is to show how to build a database using SQL when transitioning from using csv files and how efficient is to retrive any information needed for analysis.  Also, we will be uncovering important insights that will help drive strategy and inform decision making when having a large population of employees near to retirement.
+* Currently using VBA and want to replace it.
+* Need a more roboust Database Management System.
 
 
 ---
@@ -69,7 +70,7 @@ Download the folders and files contained in this repository on your local machin
 
 ### Identifying Data Relationships
 
-In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez18/Employee-database/tree/main/database_creation_csv_files) there are 6 csv files with employee data such as [salaries](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/salaries.csv), [employees](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/employees.csv), [managers by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_manager.csv), [employees by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_emp.csv), [titles](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/titles.csv), and [departments](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/departments.csv). These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
+In the [database_creation_csv_files folder](https://github.com/NataliaVelasquez18/Employee-database/tree/main/database_creation_csv_files) there are 6 csv files with employee data such as [salaries](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/salaries.csv), [employees](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/employees.csv), [managers by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_manager.csv), [employees by department](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/dept_emp.csv), [titles](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/titles.csv), and [departments](https://github.com/NataliaVelasquez18/Employee-database/blob/main/database_creation_csv_files/departments.csv). These files are the tables for our database.  
 
 
 ### Entity Relationship Diagrams (ERD)
@@ -230,62 +231,4 @@ ORDER BY COUNT(emp_no) DESC;
 <img src="https://github.com/NataliaVelasquez18/Employee-database/blob/main/png_images/Retiring_titles.png" width="250" height="250" />
 
 
-Now, let's retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
-
-
-```
--- Employees elegible for mentorship program
-
-SELECT DISTINCT ON (emp_no) e.emp_no,
-e.first_name,
-e.last_name,
-e.birth_date,
-de.from_date,
-de.to_date,
-ti.title
-INTO mentorship_elegibilty
-FROM employees AS e
-INNER JOIN dept_emp AS de
-ON (e.emp_no = de.emp_no)
-INNER JOIN titles AS ti
-ON (e.emp_no = ti.emp_no)
-WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-ORDER BY e.emp_no;
-```
-
-
-Retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965 grouped by their title.
-
-
-```
--- mentorship eligibility per tittle
-
-SELECT COUNT(emp_no),
-title
-INTO mentorship_elegibilty_per_title
-FROM mentorship_elegibilty
-GROUP BY title
-ORDER BY COUNT(emp_no) DESC;
-```
-
-### Recommendations
-
-With 90,398 employees retiring in the near future, the company needs to put an agressive strategy to attrack and retain talent its talent.  Being an attractive employer can be achieved in several different ways.  For example, high compensation, benefits, opportunities for career development, specialized trainings, etc.
-
-Senior Engineers are the positions that will be needed the most.  A study of the job market will help assess the availability and feasibility of getting the needed talent under the current budget.
-
-
----
-
-## Acknowledgments
-
-* Berkeley University Department of Data Science provided the training to develop this project.
-
----
-
-## Author
-
-* Contact: Natalia Velasquez
-* Email: nativelasquez@gmail.com
-* Twitter: @NatiVelasquez18
 
